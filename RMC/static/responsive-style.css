@@ -1,0 +1,329 @@
+/*-------------------- RESPONSIVE CSS-----------------------*/
+/*---------------------Progress-Bar ---------------------*/
+@media only screen and (max-width:801px){
+
+#progress{
+height: 55px;
+width: 55px;
+right: 40px;
+bottom: 40px;
+}      
+#progress-value{
+z-index: 9999;  
+font-size: 20px;
+color:#17a2b8;
+}
+}
+/*----------------------------------------------------*/
+
+/*-------------- Nav-Bar----------------------*/
+@media only screen and (max-width:991px){
+.logo img{
+        width: 100px;
+        height: 60px;
+    }
+.navigation{
+       /*position: sticky;
+       top: 0;*/
+       z-index: 99;
+
+}
+
+.navbar-nav li{
+padding-right: 40px;
+font-size: 15px;
+/*font-weight: bold;*/
+}
+.div_ul ul{
+background-color:#17a2b8;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
+.div_ul ul li a{
+color: white;
+}
+}
+/*--------------------------------------------*/
+
+/*-------------- Banner Section--------------*/
+@media only screen and (max-width:801px){
+.banner p{
+margin-top: 60px;
+padding-bottom: 0px;
+padding-top: 30px;
+font-size: 30px;
+
+font-weight:;
+}
+.banner h2{
+font-size: 20px;     
+padding-bottom: 100px;
+}
+
+.banner h3{
+font-size: 30px;
+}
+}
+
+/*---------------------------------------------*/
+
+/*------------------ About ACM ----------------*/
+@media only screen and (max-width:801px){
+.about-acm h2{
+padding-top: 70px;
+padding-bottom: 50px;
+font-weight: bold;
+font-size: 21px;
+}  
+
+.about-acm p{
+font-size: 15px;
+line-height: 25px;
+padding-bottom: 30px;
+color: grey;
+}  
+
+.visit-acm-btn{
+padding-bottom: 80px;
+}
+
+.visit-acm-btn button{
+color:white;
+letter-spacing: 0.1em;
+font-weight: 300;
+padding: 4px 10px;
+font-size: 0.8rem;
+}
+}
+
+/*---------------------------------------------*/
+
+/*---------------- SVPCET ACM Section--------------*/
+@media only screen and (max-width:801px){
+.svpcet-acm h2{
+padding-top: 60px;
+padding-bottom: 50px;
+font-size: 21px;
+}
+
+.svpcet-acm-next-container{
+padding-bottom: 10px;
+}
+
+
+.svpcet-acm-row-d1 h4{
+
+font-size: 19px;
+padding-top: 40px;
+padding-bottom: 20px;
+}
+.svpcet-acm-row-d2 h4{
+font-size: 19px;     
+padding-top: 60px;
+padding-bottom: 20px;
+}
+.svpcet-acm-row-d3 h4{
+font-size: 19px;     
+margin-top: 40px;
+padding-bottom: 0px;
+}
+.svpcet-acm-row-d3 p{
+padding-top: 25px;
+}
+}
+
+/*----------------------------------------------*/
+
+/*----------------- Special Groups ----------------------*/
+
+@media only screen and (max-width:1000px){
+.special-group-row-div2{
+margin-top: 35px;
+}
+.special-group-row-div3{
+margin-top: 35px;
+}
+}
+
+@media only screen and (max-width:801px){
+.special-groups-container h2{
+font-size: 24px;
+font-weight: bolder;
+}
+.special-groups-container h5{
+font-size: 19px;
+font-weight: lighter;
+color: silver;
+}
+
+.special-group-row-div2{
+margin-top: 30px;
+}
+
+.special-group-row-div3{
+margin-top: 30px;
+}
+
+
+#special-group-row-card1 h5{
+font-size: 16px;
+font-weight: bolder;
+color: #17a2b8;
+}
+#special-group-row-card2 h5{
+font-size: 16px;
+font-weight: bolder;
+color: #17a2b8;
+}
+#special-group-row-card3 h5{
+font-size: 16px;
+font-weight: bolder;
+color: #17a2b8;
+}
+#special-group-row-card1 p{
+font-size: 14px;
+}
+#special-group-row-card2 p{
+font-size: 14px;
+}
+#special-group-row-card3 p{
+font-size: 14px;
+}
+}
+/*-----------------------------------------------------*/
+
+/*----------------------- Our Team Section------------*/
+@media only screen and (max-width:801px){
+.our-team-container h2{
+font-size: 24px;
+font-weight: bold;
+padding-bottom: 30px;
+padding-top: 0px;
+}
+
+.our-team-container1 h4{
+font-size: 20px;
+font-weight: bold;
+}
+
+.our-team-row1 h5{
+font-size: 17px;
+}
+.card1{
+width: 190px;
+height: 290px;
+}
+
+/*.card1:hover{
+transform: translateX(50%);
+}*/
+
+.content h5{
+font-size: 16px;
+}
+
+.our-team-container2 h4{
+font-size: 20px;
+}
+
+.our-team-row2 h5{
+font-size: 15px;
+}
+
+.our-team-row2 img{
+width: 150px;
+}
+}
+/*-------------------------------------------------------*/
+
+/*-------------- Mission Section --------------------*/
+@media only screen and (max-width:801px){
+.gallery-main h1{
+font-size: 23px;
+}
+.mission h3{
+font-size: 20px;
+margin-top: 0px;
+}
+
+.vision h3{
+font-size: 20px;
+}
+.core-values h3{
+font-size: 20px;
+}
+.gallery-main{
+margin-bottom: -150px;
+}
+}
+
+/*-----------------------------------------------------*/
+
+/*------------------Footer Section ---------------------*/
+@media only screen and (max-width:801px){
+ 
+
+.footer h4{
+font-size: 19px;
+}
+.footer h6{
+font-size: 14px;
+}
+.footer-imp-links a{
+font-size: 13px;
+color: #17a2b8;
+}
+
+.design-team h6{
+font-size: 16px;
+font-weight: lighter;
+}
+
+
+.connect-us-icons a{
+font-size:16px;
+}
+
+.quick-links h4{
+margin-top: 25px;
+}
+.location h4{
+margin-top: 25px;
+}
+
+}
+
+@media only screen and (max-width:801px){
+.write-us-btn{
+background-color: #17a2b8;
+  color: white;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 35%;
+  margin-top: 20px;
+  font-size: 13px;
+}
+}
+
+@media only screen and (max-width:701px){
+.write-us-btn{
+background-color: #17a2b8;
+  color: white;
+  padding: 7px 7px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 35%;
+  margin-top: 20px;
+  font-size: 10px;
+}
+}
+
+
+/*------------------------------------------------------*/
+

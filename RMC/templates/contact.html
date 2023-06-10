@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+
+<head>
+
+   <title>Regional Meteorological Centre </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+   <link rel="icon" type="image/x-icon" href="./static/images/favicon.png">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="./static/style/style.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+
+   <!------------------------------------ NavBar Section ----------------------------------------------------------------------------------------->
+   <div class="navigation" id="navigation">
+      <nav class="navbar navbar-expand-lg custom_nav ">
+         <div class="container logo">
+            <a href="#" class="navbar-brand">
+               <!-- Logo Image -->
+               <img src="./static/images/rmc_logo.png" data-aos="fade-right">
+            </a>
+
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+               class="navbar-toggler"><span style="color:black"><i class="fa fa-bars"></i></span></button>
+
+            <div id="navbarSupportedContent" class="collapse navbar-collapse div_ul">
+               <ul class="navbar-nav ml-auto" data-aos="fade-down">
+                  <li class="nav-item"><a href="http://127.0.0.1:5000" class="nav-link text-dark">Home</a></li>
+                  <li class="nav-item active"><a href="http://127.0.0.1:5000/start" class="nav-link text-dark">Download Data</a></li>
+                  <li class="nav-item"><a href="http://127.0.0.1:5000/contact" class="nav-link">Contact-Us</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </div>
+
+
+<!------------------------------------ Contact Section ----------------------------------------------------------------------------------------->
+
+<div class="contact-form2 pt-5" style="height:85vh;">
+    <h2 class="text-info email-heading" data-aos="fade-right"> Send your messege </h2>
+    <h6>Through Email</h6>
+    <div class="">
+        svpcet.rmc@gmail.com<a class="link" href="svpcet@gmail.com" style="font-size:25px;color:#17a2b8"><i class="fa fa-envelope  p-3" aria-hidden="true"></i></a>
+    </div>
+
+    <h2 class="text-info email-heading" data-aos="fade-right"> Visit our Industry </h2>
+    <!-- <h6>Regional Meteorological Center</h6> -->
+    <div class="">
+      Regional Meteorological Centre<a class="link" href="https://mausam.imd.gov.in/nagpur/" style="font-size:25px;color:#17a2b8"><i class="fa fa-envelope  p-3" aria-hidden="true"></i></a>
+    </div>
+
+
+
+    <h6>  </h6>
+    <div>
+    <h2 class="text-info email-heading" data-aos="fade-right"> Phone: </h2>
+
+    <h6> (+91) 9999999999 </h6>
+    </div>
+    <h6>  </h6>
+    <div>
+      <h2 class="text-info email-heading" data-aos="fade-right"> Address: </h2>
+
+      <h6> Regional Meteorological Centre Team</h6>
+      <h6> St. Vincent Pallotti College of  </h6>
+      <h6> Engineering & Technology, Nagpur  </h6>
+
+      </div>
+
+  </div>
+
+
+
+
+<style>
+.contact-form h2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+.contact-form2{
+    width: 65%;
+    margin: auto;
+    }
+.form-heading{
+    animation: formHeading 1.5s ease-in-out;
+    }
+@keyframes formHeading{
+    from{
+    opacity :0;
+    transform: translateX(300px);
+    }
+    to{
+    opacity: 1;
+     }
+    }
+.email-heading{
+    animation: emailHeading 1.5s ease-in-out;
+}
+
+@media only screen and (max-width:991px){
+.contact-form1 h2{
+    font-size: 25px;
+    }
+.contact-form2 h2{
+    font-size: 25px;
+    }
+}
+
+</style>
+
+<!------------------------------------ Footer Section ----------------------------------------------------------------------------------------->
+   <div class="design-team" style=" position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 50px;">
+      <div class="container text-center text-white">
+         <h6>©2023 SVPCET Nagpur & RMC</h6>
+      </div>
+   </div>
+
+
+<!---------------------------------- jQuery and Bootsrap CDN ------------------------------------------------------------------------------>
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init({
+         offset: 150,
+         duration: 1200,
+         once: true
+      });
+   </script>
+
+</body>
+
+</html>

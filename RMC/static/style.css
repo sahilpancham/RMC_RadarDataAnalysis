@@ -1,0 +1,806 @@
+/* ------------------------------------- css -------------------------*/
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+/*------------------- PreLoader------------------------*/
+
+#preloader{
+width: 100%;
+height: 100vh;
+background: #fff url('./static/images/preloader.gif') no-repeat center;
+position: fixed;
+z-index:9999;
+}
+
+
+/*----------------------- Prgress Bar ------------------*/
+#progress{
+z-index: 9999;  
+background-color: #03cc65;
+position: fixed;
+bottom: 20px;
+right: 20px;
+height: 70px;
+width: 70px;
+display:none;
+place-items: center;
+border-radius: 50%;
+box-shadow: 0 0 10 px rgba(0,0,0,0.2);
+cursor: pointer;
+}
+
+
+#progress-value{
+z-index: 9999;  
+display: block;
+height: calc(100% - 15px);
+width: calc(100% - 15px);;
+background-color: #ffff;
+border-radius: 50%;
+display: grid;
+place-items: center;
+font-size: 35px;
+color:#17a2b8;
+}
+/*-----------------------------------------------------*/
+
+
+/*----------------------Nav bar ---------------------------------*/
+.navigation{
+       width: 100%;
+       height: auto;
+       background: whitesmoke;
+       box-shadow: 0px 2px #17a2b8;
+       z-index: 99;
+
+}
+
+.logo img{
+        width: 110px;
+        height: 80px;
+    }
+
+
+.navbar-nav li{
+padding-right: 40px;
+font-size: 18px;
+/*font-weight: bold;*/
+}
+/*-----------------------------------------------*/
+
+/*--------------------  Banner Section -----------------------*/
+.banner{
+background-image:url('./images/clg.jpeg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       width: 100%;
+       height:100vh;
+      
+}
+
+.banner p{
+
+padding-bottom: 0px;
+padding-top: 50px;
+font-size: 70px;
+font-weight: bold;
+}
+
+.banner p{
+animation: fadeInRight 1.5s ease-in-out;
+}
+@keyframes fadeInRight{
+from{
+opacity :0;
+transform: translateX(300px);
+}
+to{
+opacity: 1;
+ }
+}
+
+
+.banner h2{
+margin-bottom: 20px;
+font-style:italic    
+}
+
+.banner h2{
+animation: fadeInLeft 1.5s ease-in-out;
+}
+.banner img 
+{
+  width: 50%;
+}
+
+@keyframes fadeInLeft{
+from{
+opacity :0;
+transform: translateX(-300px);
+}
+to{
+opacity: 1;
+ }
+}
+
+
+
+/*.background-info{background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(&quot;https://res.cloudinary.com/dxfq3iotg/image/upload/v1567672484/Untitled_design_7.png&quot;);background-position: center center, center center;background-size: cover, cover;background-repeat: repeat, repeat}*/
+
+/*----------------------------------------------------------------------------------------*/
+
+
+
+
+.about-acm{
+background: whitesmoke;
+margin-top: 100px;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+.about-acm h2{
+padding-bottom: 50px;
+font-weight: bold;
+}  
+
+.about-acm h2{
+animation: fadeInRight 1.5s ease-in-out;
+}
+@keyframes fadeInRight{
+from{
+opacity :0;
+transform: translateX(300px);
+}
+to{
+opacity: 1;
+ }
+}
+
+.about-acm p{
+  margin: 0;
+font-size: 19px;
+line-height: 35px;
+padding-bottom: 30px;
+/* width: 800px;
+display: flex;
+align-items: left; */
+color: grey;
+}  
+
+
+.visit-acm-btn button{
+color:white;
+border: 1px none;
+letter-spacing: 0.1em;
+font-weight: 400;
+padding: 4px 14px;
+font-size: 1.1em;
+cursor: pointer;
+text-transform: uppercase;
+background: #17a2b8;
+}
+/*----------------------------------------------------------------------------------------*/
+
+
+.svpcet-acm{
+background-image:url('images/mainbgimg1.gif');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       width: 100%;
+       height: auto;
+       padding-bottom: 60px;
+       padding-top: 60px;
+       margin-top: 40px;
+}
+
+
+.svpcet-acm h2{
+padding-top: 60px;
+font-weight: bold;
+padding-bottom: 50px;
+}
+
+.svpcet-acm-next-container{ 
+padding-top: 40px;
+padding-bottom: 50px;
+width: 80%;
+
+}
+
+.svpcet-acm-row-d1{
+background-color: whitesmoke;
+}
+
+.svpcet-acm-row-d2{
+background-color: #17a2b8 ;
+}
+
+.svpcet-acm-row-d3{
+background-color:whitesmoke ;
+}
+
+.svpcet-acm-row-d1 h4{
+padding-top: 70px;
+padding-bottom: 20px;
+font-style: italic;
+}
+
+.svpcet-acm-row-d1 p{
+padding-bottom: 70px;
+}
+
+.svpcet-acm-row-d2 h4{
+padding-top: 70px;
+padding-bottom: 20px;
+font-style: italic;
+}
+
+.svpcet-acm-row-d2 p{
+padding-bottom: 70px;
+}
+
+.svpcet-acm-row-d3 h4{
+padding-top: 70px;
+padding-bottom: 20px;
+font-style: italic;
+}
+
+.svpcet-acm-row-d3 p{
+padding-bottom: 70px;
+}
+/*-----------------------------------------------------*/
+
+
+/*----------------- Special Groups ----------------------*/
+.special-groups{
+background-image:url('images/mainbgimg1.gif');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       width: 100%;
+       height: auto;    
+padding-top: 100px;
+padding-bottom: 120px;
+
+}
+
+.special-groups-container h2{
+font-weight: bolder;
+margin-bottom: 20px;
+}
+
+.special-groups-container{
+margin-bottom: 60px;
+}
+
+
+#special-group-row-card1{
+box-shadow:6px 6px silver;
+}
+#special-group-row-card2{
+box-shadow:6px 6px silver;
+}
+#special-group-row-card3{
+box-shadow:6px 6px silver;
+}
+#special-group-row-card1 img{
+height: 180px;
+width: 150px;
+margin: auto;
+padding-bottom: 15px;
+}
+#special-group-row-card2 img{
+height: 160px;
+width:150px ;
+margin: auto;
+padding-top: 25px;
+
+}
+#special-group-row-card3 img{
+height: 180px;
+width: 160px;
+margin: auto;
+}
+
+#special-group-row-card1 h5{
+color: #17a2b8;
+font-style: italic;
+}
+#special-group-row-card2 h5{
+color: #17a2b8;
+font-style: italic;
+}
+#special-group-row-card3 h5{
+color: #17a2b8;
+font-style: italic;
+}
+
+/*-----------------------------------------------------*/
+
+/*------------------ Our Team --------------------------*/
+/*.our-team{
+       width: 100%;
+       height: auto;
+       background: silver;
+       padding-top: 100px;
+       padding-bottom: 100px;
+}
+*/
+.our-team-container h2{
+padding-bottom: 50px;
+font-weight: bolder;
+}
+.our-team-container1 h4{
+padding-bottom: 50px;
+font-weight: bolder;
+font-size: 27px;
+font-style: italic;
+}
+
+.our-team-row1{
+padding-bottom: 100px;
+}
+
+
+
+.our-team-container2 h4{
+padding-bottom: 80px;
+font-weight: bolder;
+font-size: 27px;
+font-style: italic;
+}
+
+.card1{
+position: relative;
+margin: auto;
+width: 230px;
+height: 330px;
+background:whitesmoke;
+transform-style: preserve-3d;
+transform: perspective(1000px);
+/*box-shadow: 10px 20px 40px rgba(0,0,0,0.25);*/
+border-radius: 0%;
+border: 1px solid whitesmoke;
+  }
+
+  .card1 .details{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: white;
+clip-path: circle();
+  }
+
+  .card1 .details .content{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+  }
+
+  .card1 .details .content h2{
+text-align: center;
+font-weight: 700;
+line-height: 1em;
+  }
+
+  .card1 .details .content h3 span{
+color:#902dfe ;
+font-size: 0.8em;
+    }
+
+.card1 .details .content .social-icons{
+position: relative;
+display: flex;
+margin-top: 10px;
+font-size: 25px;
+}
+
+
+.card1:hover{
+cursor: pointer;    
+/*transform: translateX(50%);*/
+}
+
+.card1 .imgBox{
+position:relative;
+width:100%;
+height: 100%;
+z-index: 1;
+transform-origin:left;
+transform-style: preserve-3d;
+/*background: #000;*/
+transition: 1s;
+}
+
+.card1:hover .imgBox{
+transform: rotateY(-180deg);
+}
+
+
+.imgBox img{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+transform-style: preserve-3d;
+clip-path: circle();
+}
+
+
+
+/*-----------------------------------------------------*/
+
+
+
+/*-------------- Gallery + Slider --------------------*/
+
+.gallery-main{
+background-image:url('images/mainbgimg1.gif');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       width: 100%;
+       height: auto;
+      margin-top: 70px;
+}
+
+.mission{
+background: whitesmoke;
+}
+
+.mission h3{
+font-style: italic;
+padding-top:80px;
+}
+
+.vision{
+background: #17a2b8;
+}
+
+.vision h3{
+font-style: italic;
+padding-top:80px;
+}
+
+.core-values{
+background: whitesmoke;
+}
+
+.core-values h3{
+font-style: italic;
+padding-top:80px;
+}
+/*-----------------------------------------------------*/
+
+
+/*--------------------- Footer -----------------------*/
+.footer{
+width: 100%;
+height: auto;
+background: whitesmoke;
+padding-top: 10px;
+margin-top: 200px;
+}
+
+.write-us-btn{
+background-color: #17a2b8;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 30%;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.footer-main-div{
+padding-top: 40px;
+padding-bottom: 60px;
+}
+
+.connect-us-icons a{
+font-size:25px;
+color:rgb(16, 14, 14);
+}
+
+.footer-imp-links{
+    color:#17a2b8;
+    font-size:15px;
+}
+
+.design-team{
+background: #17a2b8;
+padding: 20px;
+}
+
+.social-icons a i{
+color: #17a2b8
+}
+
+.design-teams{
+       background: #ffffff;
+       /* padding: 10px; */
+       padding-right: 10px;
+         padding-left: 30px;
+       padding-top: 60px;
+         padding-bottom: 30px;
+ }
+
+
+/*----------------------------------------------------*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+height:100%;
+width:100%;
+font-family: 'poppins', sans-serif;
+color: #222;
+}
+
+.navbar {
+padding: .8rem;
+}
+.navbar-nav li {
+padding-right: 20px;
+}
+.nav-link {
+font-size: 1.1em !important;
+}
+
+.carousel-caption {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+bottom: auto;
+}
+
+
+.carousel-caption h1 {
+text-shadow: 1px 1px 15px #000;
+}
+
+.padding {
+padding-bottom: 2rem;
+}
+
+.welcome {
+width:75%;
+margin:0 auto;
+padding-top: 2rem;
+}
+
+.social a {
+font-size: 4.5em;
+padding: 3rem;
+}
+.fa-facebook {
+color: #3b5998;
+}
+.fa-twitter {
+color: #00aced;
+}
+.fa-google-plus-g {
+color: #dd4b39;
+}
+.fa-instagram {
+color: #517fa8;
+}
+.fa-youtube {
+color: #bb0000;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover, .fa-youtube:hover {
+color: #D5D5D5;
+}
+
+footer {
+background: linear-gradient(to top right, #669999 30%, #666699 70%);
+color: #D5D5D5;
+/*background: #17a2b8;*/
+padding-top: 2rem;
+}
+
+footer.blockquote-footer {
+background: none;
+}
+
+hr.light {
+border-top: 1px solid #d5d5d5;
+width: 75%;
+margin-top: .8rem;
+margin-bottom: 1rem;
+}
+
+hr.light-100 {
+border-top: 1px solid #d5d5d5;
+width: 100%;
+margin-top: .8rem;
+margin-bottom: 1rem;
+}
+
+.navbar-brand {
+font-size:35px;
+}
+
+.logo {
+font-size:15px;
+}
+
+
+h2.worth{
+font-size:150%;
+}
+
+img.worth{
+font-size:150%;
+}
+
+hr{
+  border-top: 1px solid blue;
+}
+
+hr.a{
+  border-top: 1px solid white;
+}
+
+
+/*---Media Queries --*/
+
+@media (max-width: 992px) {
+.social a {
+	font-size:4em;
+	padding:2rem;
+}
+.carousel-caption h1 {
+font-size: 200%;
+}
+  
+.display-4 {
+font-size: 200%;
+}
+
+h2.worth{
+font-size:120%;
+}
+}
+
+@media (max-width: 768px) {
+
+.carousel-caption {
+top: 45%;
+}
+.carousel-caption h1 {
+font-size: 150%;
+}
+  
+.display-4 {
+font-size: 150%;
+}
+
+p.lead {
+font-size: 110%;
+}
+
+.navbar {
+padding: .6rem;
+}
+.navbar-nav li {
+padding-right: 15px;
+}
+.nav-link {
+font-size: 1.1em !important;
+}
+
+.social a {
+font-size: 2.5em;
+padding: 1.2rem;
+}
+
+h2.worth{
+font-size:110%;
+}
+
+footer {
+padding-top: 1rem;
+}
+
+
+}
+
+@media (max-width: 576px) {
+
+.carousel-caption {
+top: 40%;
+}
+
+.carousel-caption h1 {
+font-size: 130%;
+}
+  
+.display-4 {
+font-size: 130%;
+}
+
+.navbar {
+padding: .4rem;
+}
+.navbar-nav li {
+padding-right: 10px;
+}
+.nav-link {
+font-size: 1.1em !important;
+}
+
+.social a {
+font-size: 2em;
+padding: .7rem;
+}
+
+h2.worth{
+font-size:100%;
+}
+
+}
+
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/net.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+[class*="col-"] {
+    padding: 1rem;
+}

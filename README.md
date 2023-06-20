@@ -5,10 +5,6 @@ This project aims to develop a weather forecasting tool that can process a folde
           The goal of this weather forecasting tool is to provide meteorologists with a powerful and efficient tool that can help them make more accurate weather predictions. The tool takes a folder of radar files as input, which contain data about reflectivity, velocity, spectrum width, and power of precipitation. The radar data is processed using advanced data processing techniques to extract relevant information and calculate the required parameters.
 
 		
-
-  
-
-
 Radar Data Analysis Flask Application
 This Flask application is designed to perform analysis on radar data files. It allows users to select one or more radar data files and extract various statistical measures from the data, such as minimum, maximum, and mode values. The analysis is performed on fields like reflectivity, velocity, spectrum width, and total power.
 

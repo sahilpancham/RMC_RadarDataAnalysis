@@ -9,3 +9,6 @@ This project aims to develop a weather forecasting tool that can process a folde
 		The output of the tool is a CSV file that contains the minimum, maximum, and mode values for each factor. This output file provides valuable insights into the weather patterns and helps meteorologists make accurate weather forecasts. The tool uses machine learning and statistical modeling techniques to analyze the data and identify patterns in the weather data. These patterns can then be used to predict future weather conditions based on historical data.
 
 The main objective of this project is to develop a powerful and efficient weather forecasting tool that can assist meteorologists in making accurate predictions. The tool will be user-friendly and will provide easy-to-understand insights into the weather patterns.
+
+
+

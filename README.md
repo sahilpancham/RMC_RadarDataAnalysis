@@ -17,6 +17,7 @@ Make sure you have Tkinter and its dependencies installed. If not, install them 
 Set the initial directory in the filedialog.askopenfilenames function to the desired location of your radar data files.
 Start the Flask application by running python app.py.
 Open a web browser and access the application at http://localhost:5000.
+
 Usage
 Upon accessing the application, you will be presented with the home page.
 Click on the "Start" button to select radar data files using the file dialog.
@@ -24,8 +25,10 @@ After selecting the files, the application will analyze each file and generate a
 Once the analysis is complete, you will see a message confirming that the data has been written to "Data.csv".
 You can download the generated CSV file by clicking on the "Download" link.
 Navigate to the "Contact" page to find contact information for any support or inquiries.
+
 Configuration
 The initial directory for file selection can be configured by modifying the initialdir parameter in the filedialog.askopenfilenames function.
 Ensure that the necessary radar data files are located in the specified directory.
+
 Contact
 For any questions or support related to this application, please contact Sahil Pancham at sahilpancham10@gmail.com.
